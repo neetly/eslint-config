@@ -34,6 +34,10 @@ module.exports = {
         ecmaVersion: "latest",
       },
 
+      env: {
+        es2022: true,
+      },
+
       plugins: ["simple-import-sort"],
       extends: ["eslint:recommended"],
 
