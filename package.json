@@ -20,7 +20,7 @@
     "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write ."
   },
   "dependencies": {
-    "@rushstack/eslint-patch": "^1.1.4",
+    "@rushstack/eslint-patch": "^1.2.0",
     "eslint-plugin-react": "^7.31.8",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^8.0.0"
