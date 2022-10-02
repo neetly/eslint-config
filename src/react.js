@@ -1,7 +1,7 @@
 require("@rushstack/eslint-patch/modern-module-resolution");
 
 module.exports = {
-  extends: "./index.js",
+  extends: require.resolve("."),
 
   overrides: [
     {
