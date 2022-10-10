@@ -1,6 +1,8 @@
 require("@rushstack/eslint-patch/modern-module-resolution");
 
 module.exports = {
+  reportUnusedDisableDirectives: true,
+
   overrides: [
     {
       files: ["**/*.{ts,tsx,mts,cts}"],
