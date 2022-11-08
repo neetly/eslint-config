@@ -1,8 +1,6 @@
 require("@rushstack/eslint-patch/modern-module-resolution");
 
 module.exports = {
-  reportUnusedDisableDirectives: true,
-
   parserOptions: {
     ecmaVersion: "latest",
   },
@@ -42,4 +40,6 @@ module.exports = {
       },
     },
   ],
+
+  reportUnusedDisableDirectives: true,
 };
