@@ -43,7 +43,8 @@ module.exports = {
           { fixMixedExportsWithInlineTypeSpecifier: true },
         ],
         "import/no-duplicates": "error",
-        "import/consistent-type-specifier-style": ["error", "prefer-inline"],
+        // https://github.com/import-js/eslint-plugin-import/issues/2567
+        // "import/consistent-type-specifier-style": ["error", "prefer-inline"],
       },
 
       settings: {
