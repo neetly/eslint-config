@@ -63,8 +63,6 @@ __metadata:
     prettier: "npm:^2.7.1"
     typescript: "npm:^4.8.4"
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": "*"
-    "@typescript-eslint/parser": "*"
     eslint: "*"
     typescript: "*"
   languageName: unknown
