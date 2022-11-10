@@ -35,7 +35,8 @@ module.exports = {
       ],
 
       rules: {
-        "import/consistent-type-specifier-style": ["error", "prefer-inline"],
+        // https://github.com/import-js/eslint-plugin-import/pull/2473#issuecomment-1310320670
+        // "import/consistent-type-specifier-style": ["error", "prefer-inline"],
         "@typescript-eslint/consistent-type-imports": [
           "error",
           { fixStyle: "inline-type-imports" },
