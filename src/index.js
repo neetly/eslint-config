@@ -27,14 +27,13 @@ module.exports = {
         project: ["**/tsconfig.json"],
       },
 
-      plugins: ["@typescript-eslint"],
+      plugins: ["@typescript-eslint", "import"],
       extends: [
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
       ],
 
       rules: {
-        "@typescript-eslint/no-duplicate-imports": "error",
         "@typescript-eslint/consistent-type-imports": [
           "error",
           { fixStyle: "inline-type-imports" },
@@ -43,6 +42,30 @@ module.exports = {
           "error",
           { fixMixedExportsWithInlineTypeSpecifier: true },
         ],
+        "import/no-duplicates": "error",
+        "import/consistent-type-specifier-style": ["error", "prefer-inline"],
+      },
+
+      settings: {
+        "import/parsers": {
+          [require.resolve("@typescript-eslint/parser")]: [
+            ".ts",
+            ".tsx",
+            ".mts",
+            ".cts",
+          ],
+        },
+        "import/resolver": {
+          [require.resolve("eslint-import-resolver-typescript")]: {
+            project: ["**/tsconfig.json"],
+            extensions: [".ts", ".tsx", ".d.ts", ".js"],
+            extensionAlias: {
+              ".js": [".ts", ".tsx", ".d.ts", ".js"],
+              ".mjs": [".mts", ".d.mts", ".mjs"],
+              ".cjs": [".cts", ".d.cts", ".cjs"],
+            },
+          },
+        },
       },
     },
   ],
