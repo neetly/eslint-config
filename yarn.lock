@@ -52,8 +52,8 @@ __metadata:
   resolution: "@neetly/eslint-config@workspace:."
   dependencies:
     "@rushstack/eslint-patch": "npm:^1.2.0"
-    "@typescript-eslint/eslint-plugin": "npm:5.43.0"
-    "@typescript-eslint/parser": "npm:5.43.0"
+    "@typescript-eslint/eslint-plugin": "npm:^5.43.0"
+    "@typescript-eslint/parser": "npm:^5.43.0"
     eslint: "npm:^8.27.0"
     eslint-import-resolver-typescript: "npm:^3.5.2"
     eslint-plugin-import: "npm:@neetly/eslint-plugin-import@2.27.0-alpha.1"
@@ -137,7 +137,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:5.43.0":
+"@typescript-eslint/eslint-plugin@npm:^5.43.0":
   version: 5.43.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.43.0"
   dependencies:
@@ -160,7 +160,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:5.43.0":
+"@typescript-eslint/parser@npm:^5.43.0":
   version: 5.43.0
   resolution: "@typescript-eslint/parser@npm:5.43.0"
   dependencies:
