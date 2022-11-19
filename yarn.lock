@@ -56,11 +56,12 @@ __metadata:
     "@typescript-eslint/parser": "npm:^5.43.0"
     eslint: "npm:^8.27.0"
     eslint-import-resolver-typescript: "npm:^3.5.2"
-    eslint-plugin-import: "npm:@neetly/eslint-plugin-import@2.27.0-alpha.1"
+    eslint-plugin-import: "npm:^2.26.0"
     eslint-plugin-react: "npm:^7.31.10"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-simple-import-sort: "npm:^8.0.0"
     prettier: "npm:^2.7.1"
+    project-references-webpack-plugin: "npm:^0.1.0"
     typescript: "npm:^4.9.3"
   peerDependencies:
     eslint: "*"
@@ -310,16 +311,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array-includes@npm:^3.1.5":
-  version: 3.1.5
-  resolution: "array-includes@npm:3.1.5"
+"array-includes@npm:^3.1.4, array-includes@npm:^3.1.5":
+  version: 3.1.6
+  resolution: "array-includes@npm:3.1.6"
   dependencies:
     call-bind: "npm:^1.0.2"
     define-properties: "npm:^1.1.4"
-    es-abstract: "npm:^1.19.5"
-    get-intrinsic: "npm:^1.1.1"
+    es-abstract: "npm:^1.20.4"
+    get-intrinsic: "npm:^1.1.3"
     is-string: "npm:^1.0.7"
-  checksum: 179efa9a88d50c95d35af2cb269a41aee180217fe7a1de1a7992f512f53a677c235f14b2242dcf2550feac0cfac80e189cd8a8b8949f868dbe8da6f70ea771c7
+  checksum: b4eb40ff992138350675662bb5a0351553d63bef17fb64c54e2ee9d6434ff3d8ba71d511af90a8f9400cd411c7311604310bd4ead1c101638c660461ea7916ae
   languageName: node
   linkType: hard
 
@@ -330,7 +331,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array.prototype.flat@npm:^1.3.0":
+"array.prototype.flat@npm:^1.2.5":
   version: 1.3.1
   resolution: "array.prototype.flat@npm:1.3.1"
   dependencies:
@@ -619,7 +620,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-module-utils@npm:^2.7.4":
+"eslint-module-utils@npm:^2.7.3":
   version: 2.7.4
   resolution: "eslint-module-utils@npm:2.7.4"
   dependencies:
@@ -631,26 +632,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:@neetly/eslint-plugin-import@2.27.0-alpha.1":
-  version: 2.27.0-alpha.1
-  resolution: "@neetly/eslint-plugin-import@npm:2.27.0-alpha.1"
+"eslint-plugin-import@npm:^2.26.0":
+  version: 2.26.0
+  resolution: "eslint-plugin-import@npm:2.26.0"
   dependencies:
-    array-includes: "npm:^3.1.5"
-    array.prototype.flat: "npm:^1.3.0"
+    array-includes: "npm:^3.1.4"
+    array.prototype.flat: "npm:^1.2.5"
     debug: "npm:^2.6.9"
     doctrine: "npm:^2.1.0"
     eslint-import-resolver-node: "npm:^0.3.6"
-    eslint-module-utils: "npm:^2.7.4"
+    eslint-module-utils: "npm:^2.7.3"
     has: "npm:^1.0.3"
-    is-core-module: "npm:^2.10.0"
+    is-core-module: "npm:^2.8.1"
     is-glob: "npm:^4.0.3"
     minimatch: "npm:^3.1.2"
     object.values: "npm:^1.1.5"
-    resolve: "npm:^1.22.1"
+    resolve: "npm:^1.22.0"
     tsconfig-paths: "npm:^3.14.1"
   peerDependencies:
     eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
-  checksum: 938e790fb4a596faace43a178be260eef269392070bb2225e39f5ab0f0bb5000c6f7ddf0168b8499bf135e4d9038c27f72f5ee5584b8dc83b5b7a8264d9de42e
+  checksum: d6509c7e368481d46e8213ffb341085a0c9dd83cdf0a96f28a69701ff571a80453532a7a68a60b29c8f74d8d33dbf049c2c2fff4592104cf6bf6ed968fc4ead1
   languageName: node
   linkType: hard
 
@@ -1211,7 +1212,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.10.0, is-core-module@npm:^2.9.0":
+"is-core-module@npm:^2.10.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
   version: 2.11.0
   resolution: "is-core-module@npm:2.11.0"
   dependencies:
@@ -1393,6 +1394,13 @@ __metadata:
   bin:
     json5: lib/cli.js
   checksum: fd9492140ea8a1ec338c96e8527e940c9464ca3c7ef8fbf00b8bbbac1c6e60d612bf6640885e8a9108c3b71dc913f9a07a628df36f462853ea8c59bbce192e32
+  languageName: node
+  linkType: hard
+
+"jsonc-parser@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "jsonc-parser@npm:3.2.0"
+  checksum: dffa53dd8b8aa897575bcd31b767f1a5c90a0229902e4fcf7aaae73d11a2a343eee6f852d432f7f9328b14520f487805014c2284fbe358e904c41f004964b54a
   languageName: node
   linkType: hard
 
@@ -1722,6 +1730,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"project-references-webpack-plugin@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "project-references-webpack-plugin@npm:0.1.0"
+  dependencies:
+    jsonc-parser: "npm:^3.2.0"
+  checksum: 3123c9eebb8c0781c911ce5099287941f82b6cf68d35037b55553f0f063fc674a8ae489750de28ecf175749373459909b1c13930b6b541f5e6ab9d32915834cc
+  languageName: node
+  linkType: hard
+
 "prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
@@ -1779,7 +1796,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.20.0, resolve@npm:^1.22.1":
+"resolve@npm:^1.20.0, resolve@npm:^1.22.0":
   version: 1.22.1
   resolution: "resolve@npm:1.22.1"
   dependencies:
@@ -1805,7 +1822,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.20.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.20.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.0#optional!builtin<compat/resolve>":
   version: 1.22.1
   resolution: "resolve@patch:resolve@npm%3A1.22.1#optional!builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
   dependencies:

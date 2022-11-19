@@ -1,5 +1,9 @@
 require("@rushstack/eslint-patch/modern-module-resolution");
 
+const {
+  ProjectReferencesPlugin,
+} = require("project-references-webpack-plugin");
+
 module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
@@ -35,12 +39,7 @@ module.exports = {
       ],
 
       rules: {
-        // https://github.com/import-js/eslint-plugin-import/pull/2473#issuecomment-1310320670
-        // "import/consistent-type-specifier-style": ["error", "prefer-inline"],
-        "@typescript-eslint/consistent-type-imports": [
-          "error",
-          { fixStyle: "inline-type-imports" },
-        ],
+        "@typescript-eslint/consistent-type-imports": "error",
         "@typescript-eslint/consistent-type-exports": [
           "error",
           { fixMixedExportsWithInlineTypeSpecifier: true },
@@ -67,6 +66,7 @@ module.exports = {
           ".mjs": [".mts", ".d.mts", ".mjs"],
           ".cjs": [".cts", ".d.cts", ".cjs"],
         },
+        plugins: [new ProjectReferencesPlugin()],
       },
     },
   },
