@@ -1,9 +1,5 @@
 require("@rushstack/eslint-patch/modern-module-resolution");
 
-const {
-  ProjectReferencesPlugin,
-} = require("project-references-webpack-plugin");
-
 module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
@@ -66,7 +62,6 @@ module.exports = {
           ".mjs": [".mts", ".d.mts", ".mjs"],
           ".cjs": [".cts", ".d.cts", ".cjs"],
         },
-        plugins: [new ProjectReferencesPlugin()],
       },
     },
   },

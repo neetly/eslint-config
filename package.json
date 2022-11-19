@@ -27,8 +27,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-simple-import-sort": "^8.0.0",
-    "project-references-webpack-plugin": "^0.1.0"
+    "eslint-plugin-simple-import-sort": "^8.0.0"
   },
   "peerDependencies": {
     "eslint": "*",
