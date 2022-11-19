@@ -5,10 +5,6 @@ module.exports = {
     ecmaVersion: "latest",
   },
 
-  env: {
-    es2022: true,
-  },
-
   plugins: ["import", "simple-import-sort"],
   extends: ["eslint:recommended"],
 
@@ -43,6 +39,10 @@ module.exports = {
       },
     },
   ],
+
+  env: {
+    es2022: true,
+  },
 
   settings: {
     "import/parsers": {

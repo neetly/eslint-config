@@ -9,6 +9,7 @@
   "license": "MIT",
   "exports": {
     ".": "./src/index.js",
+    "./node": "./src/node.js",
     "./react": "./src/react.js",
     "./experimental-project-references": "./src/experimental-project-references.js"
   },
@@ -27,7 +28,8 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-simple-import-sort": "^8.0.0"
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-unicorn": "^44.0.2"
   },
   "peerDependencies": {
     "eslint": "*",
