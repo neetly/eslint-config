@@ -7,7 +7,8 @@
 yarn add --dev @neetly/eslint-config
 ```
 
-```json
+```jsonc
+// <root>/.eslintrc.json
 {
   "root": true,
   "extends": "@neetly/eslint-config"
