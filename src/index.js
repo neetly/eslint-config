@@ -3,6 +3,7 @@ require("@rushstack/eslint-patch/modern-module-resolution");
 module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
+    sourceType: "module",
   },
 
   plugins: ["import", "simple-import-sort"],
