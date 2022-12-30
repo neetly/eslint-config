@@ -7,5 +7,6 @@ module.exports = {
   rules: {
     "react/no-deprecated": "error",
     "react/jsx-key": "error",
+    "react/jsx-no-target-blank": "error",
   },
 };
