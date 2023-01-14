@@ -11,7 +11,9 @@ module.exports = {
 
   rules: {
     eqeqeq: "error",
-    "import/no-duplicates": "error",
+    "object-shorthand": "error",
+    "no-useless-rename": "error",
+    "import/no-duplicates": ["error", { "prefer-inline": true }],
     "simple-import-sort/imports": "warn",
     "simple-import-sort/exports": "warn",
   },
