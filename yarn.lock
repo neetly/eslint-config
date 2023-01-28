@@ -107,7 +107,7 @@ __metadata:
     eslint-plugin-jsx-a11y: "npm:^6.7.1"
     eslint-plugin-react: "npm:^7.32.1"
     eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-simple-import-sort: "npm:^9.0.0"
+    eslint-plugin-simple-import-sort: "npm:^10.0.0"
     eslint-plugin-unicorn: "npm:^45.0.2"
     prettier: "npm:^2.8.3"
     typescript: "npm:^4.9.4"
@@ -946,12 +946,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-simple-import-sort@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "eslint-plugin-simple-import-sort@npm:9.0.0"
+"eslint-plugin-simple-import-sort@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "eslint-plugin-simple-import-sort@npm:10.0.0"
   peerDependencies:
     eslint: ">=5.0.0"
-  checksum: ff10c8b572ea71abdbd1c49eb0e7c3d648cd30644a60b99a5f951b5ea312ed8d6c7001f466b45ab57adc353b70580bebf069e7cf5c5823147a58b4d541c0e18d
+  checksum: c268ec580e15779ff4478f8b37afbbdc675e7029f7fecd001f503ce6e7f8b275dc9f553f045b54f2355cf73d7f157fd1926ab59c245f9d208a47ceed570ae88f
   languageName: node
   linkType: hard
 
