@@ -34,7 +34,11 @@ module.exports = {
       ],
 
       rules: {
-        "@typescript-eslint/consistent-type-imports": "error",
+        "@typescript-eslint/no-import-type-side-effects": "error",
+        "@typescript-eslint/consistent-type-imports": [
+          "error",
+          { fixStyle: "inline-type-imports" },
+        ],
         "@typescript-eslint/consistent-type-exports": [
           "error",
           { fixMixedExportsWithInlineTypeSpecifier: true },
