@@ -14,6 +14,10 @@ module.exports = {
     "object-shorthand": "error",
     "no-useless-rename": "error",
 
+    "prefer-exponentiation-operator": "error",
+    "unicorn/prefer-modern-math-apis": "error",
+    "unicorn/prefer-number-properties": ["error", { checkInfinity: false }],
+
     "unicorn/better-regex": "error",
     "unicorn/no-abusive-eslint-disable": "error",
 
