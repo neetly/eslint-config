@@ -6,13 +6,18 @@ module.exports = {
     sourceType: "module",
   },
 
-  plugins: ["import", "simple-import-sort"],
+  plugins: ["unicorn", "import", "simple-import-sort"],
   extends: ["eslint:recommended"],
 
   rules: {
     eqeqeq: "error",
     "object-shorthand": "error",
     "no-useless-rename": "error",
+
+    "unicorn/better-regex": "error",
+    "unicorn/no-abusive-eslint-disable": "error",
+
+    // imports & exports
     "import/no-duplicates": ["error", { "prefer-inline": true }],
     "simple-import-sort/imports": "warn",
     "simple-import-sort/exports": "warn",
@@ -35,6 +40,15 @@ module.exports = {
       ],
 
       rules: {
+        "@typescript-eslint/prefer-readonly": "error",
+        "@typescript-eslint/strict-boolean-expressions": "error",
+        "@typescript-eslint/switch-exhaustiveness-check": "error",
+
+        // promises
+        "@typescript-eslint/promise-function-async": "error",
+        "@typescript-eslint/return-await": ["error", "always"],
+
+        // imports & exports
         "@typescript-eslint/no-import-type-side-effects": "error",
         "@typescript-eslint/consistent-type-imports": [
           "error",
