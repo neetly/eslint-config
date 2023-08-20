@@ -1682,7 +1682,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.11.0, is-core-module@npm:^2.12.0, is-core-module@npm:^2.12.1, is-core-module@npm:^2.13.0, is-core-module@npm:^2.9.0":
+"is-core-module@npm:^2.11.0, is-core-module@npm:^2.12.1, is-core-module@npm:^2.13.0, is-core-module@npm:^2.9.0":
   version: 2.13.0
   resolution: "is-core-module@npm:2.13.0"
   dependencies:
@@ -2477,20 +2477,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.10.0, resolve@npm:^1.22.1":
-  version: 1.22.3
-  resolution: "resolve@npm:1.22.3"
-  dependencies:
-    is-core-module: "npm:^2.12.0"
-    path-parse: "npm:^1.0.7"
-    supports-preserve-symlinks-flag: "npm:^1.0.0"
-  bin:
-    resolve: bin/resolve
-  checksum: 5ebd90dc08467e7d9af8f89a67f127c90d77e58d3bfc65da5221699cc15679c5bae5e410e6795ee4b9f717cd711c495a52a3b650ce6720b0626de46e5074e796
-  languageName: node
-  linkType: hard
-
-"resolve@npm:^1.22.2":
+"resolve@npm:^1.10.0, resolve@npm:^1.22.1, resolve@npm:^1.22.2":
   version: 1.22.4
   resolution: "resolve@npm:1.22.4"
   dependencies:
@@ -2516,20 +2503,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve>":
-  version: 1.22.3
-  resolution: "resolve@patch:resolve@npm%3A1.22.3#optional!builtin<compat/resolve>::version=1.22.3&hash=c3c19d"
-  dependencies:
-    is-core-module: "npm:^2.12.0"
-    path-parse: "npm:^1.0.7"
-    supports-preserve-symlinks-flag: "npm:^1.0.0"
-  bin:
-    resolve: bin/resolve
-  checksum: 6267bdbbbb1da23975463e979dadf5135fcc40c4b9281c5af4581afa848ced98090ab4e2dbc9085e58f8ea48c0eb7c4fe94b1e8f55ebdd17a725d86982eb5288
-  languageName: node
-  linkType: hard
-
-"resolve@patch:resolve@npm%3A^1.22.2#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.2#optional!builtin<compat/resolve>":
   version: 1.22.4
   resolution: "resolve@patch:resolve@npm%3A1.22.4#optional!builtin<compat/resolve>::version=1.22.4&hash=c3c19d"
   dependencies:
