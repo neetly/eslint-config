@@ -29,8 +29,9 @@ module.exports = {
 
       plugins: ["@typescript-eslint"],
       extends: [
-        "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "plugin:@typescript-eslint/recommended-type-checked",
+        "plugin:@typescript-eslint/strict-type-checked",
+        "plugin:@typescript-eslint/stylistic-type-checked",
       ],
 
       rules: {
@@ -46,10 +47,6 @@ module.exports = {
       },
     },
   ],
-
-  env: {
-    es2022: true,
-  },
 
   settings: {
     "import/parsers": {
