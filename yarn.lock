@@ -126,7 +126,7 @@ __metadata:
     eslint-import-resolver-typescript: "npm:^3.6.0"
     eslint-plugin-import: "npm:^2.28.1"
     eslint-plugin-jsx-a11y: "npm:^6.7.1"
-    eslint-plugin-n: "npm:^16.0.1"
+    eslint-plugin-n: "npm:^16.1.0"
     eslint-plugin-react: "npm:^7.33.2"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-simple-import-sort: "npm:^10.0.0"
@@ -1032,13 +1032,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:^16.0.1":
-  version: 16.0.1
-  resolution: "eslint-plugin-n@npm:16.0.1"
+"eslint-plugin-n@npm:^16.1.0":
+  version: 16.1.0
+  resolution: "eslint-plugin-n@npm:16.1.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.0"
     builtins: "npm:^5.0.1"
     eslint-plugin-es-x: "npm:^7.1.0"
+    get-tsconfig: "npm:^4.7.0"
     ignore: "npm:^5.2.4"
     is-core-module: "npm:^2.12.1"
     minimatch: "npm:^3.1.2"
@@ -1046,7 +1047,7 @@ __metadata:
     semver: "npm:^7.5.3"
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: dfdce499ffb7125221bec56d8b1f6062f6137eb23632c05706796557ac2903b46a485ed1b1bff48047414dbe1171734e49b608676fc1d360ad5d83611d843877
+  checksum: 9a27f9f1ab14ee2018824f15f8a0c9248a1dd89bdb560dcd2050d66d80a10069ccaf0099c21bcf5ffabc717ff7e8ed1ef8503f6a030de30163644e31718ce2c1
   languageName: node
   linkType: hard
 
@@ -1388,10 +1389,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-tsconfig@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "get-tsconfig@npm:4.5.0"
-  checksum: 0ff157b0f6cd9f92e4112b24522aa74c23b3207cb8ae7f491c2cac99fd65b811e955f61aace805121478b23619da2dbfc4cac3135f584e80038be86d16c5121a
+"get-tsconfig@npm:^4.5.0, get-tsconfig@npm:^4.7.0":
+  version: 4.7.0
+  resolution: "get-tsconfig@npm:4.7.0"
+  dependencies:
+    resolve-pkg-maps: "npm:^1.0.0"
+  checksum: 5844d18a705535808cf535010d9443b47b462c6e91ed00d94500602f220ecb8e518325d5b1f9e0c515c67025819c3df193194144a456e1d8f1cd70b5d48b52aa
   languageName: node
   linkType: hard
 
@@ -2474,6 +2477,13 @@ __metadata:
   version: 4.0.0
   resolution: "resolve-from@npm:4.0.0"
   checksum: 8408eec31a3112ef96e3746c37be7d64020cda07c03a920f5024e77290a218ea758b26ca9529fd7b1ad283947f34b2291c1c0f6aa0ed34acfdda9c6014c8d190
+  languageName: node
+  linkType: hard
+
+"resolve-pkg-maps@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "resolve-pkg-maps@npm:1.0.0"
+  checksum: fb8f7bbe2ca281a73b7ef423a1cbc786fb244bd7a95cbe5c3fba25b27d327150beca8ba02f622baea65919a57e061eb5005204daa5f93ed590d9b77463a567ab
   languageName: node
   linkType: hard
 
