@@ -119,7 +119,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@neetly/eslint-config@workspace:."
   dependencies:
-    "@rushstack/eslint-patch": "npm:^1.3.3"
+    "@rushstack/eslint-patch": "npm:^1.4.0"
     "@typescript-eslint/eslint-plugin": "npm:^6.7.0"
     "@typescript-eslint/parser": "npm:^6.7.0"
     eslint: "npm:^8.49.0"
@@ -166,10 +166,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rushstack/eslint-patch@npm:^1.3.3":
-  version: 1.3.3
-  resolution: "@rushstack/eslint-patch@npm:1.3.3"
-  checksum: 851259b39c4ca833609312a18457b273e4e120a5e53b547346bc18e62fba737ab9f145cb7bed8d51d79f71f9169d737b1abbe584fa52b6ff2ef9b85673444d1d
+"@rushstack/eslint-patch@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@rushstack/eslint-patch@npm:1.4.0"
+  checksum: c2ab8265798fe068a20c39b137e6cbd728cd01f7a1637b75e561047d9e7a92e15d339934c7c376a5ea0463608b2188907c48161206857bdca9650613162e40fd
   languageName: node
   linkType: hard
 
