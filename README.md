@@ -11,6 +11,6 @@ yarn add --dev @neetly/eslint-config
 // .eslintrc.json
 {
   "root": true,
-  "extends": "@neetly/eslint-config"
+  "extends": "@neetly/eslint-config",
 }
 ```
